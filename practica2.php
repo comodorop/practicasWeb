@@ -7,7 +7,6 @@ $sql = "SELECT * FROM login l  INNER JOIN DATOSPERSONALES  pd "
 $datos = mysqli_query($cn->coneccion(), $sql);
 if ($datos) {
     $lstLogin = array(); 
-   
     while ($rs = mysqli_fetch_array($datos)) {
         $objLogin = new stdClass();
         $objLogin->usuario = utf8_encode($rs["usuario"]);
@@ -20,6 +19,3 @@ if ($datos) {
 } else {
     echo 'Hubo un error';
 }
-
-
-
