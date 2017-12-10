@@ -1,0 +1,3 @@
+<?php
+//HACER UN DELETE DE UN REGISTRO
+

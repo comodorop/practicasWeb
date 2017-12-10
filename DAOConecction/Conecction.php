@@ -3,7 +3,8 @@
 class Conecction {
 
     function coneccion() {
-        if (!$link = mysqli_connect("www.localhost.com", "toor", "", "")) {
+        //RECORDEMOS QUE AQUI SE PONEN LA CONFIGURACION PARA LA CONECCION A LA BASE DE DATOS
+        if (!$link = mysqli_connect("localhost", "root", "", "cursojosemaria")) {
             echo 'Coneccion no realizada';
         } else {
             return $link;

@@ -1,0 +1,20 @@
+[{
+        "nombre": "Torres",
+        "telefono": "123456",
+        "correo": "torres@hotmai.com"
+    },
+    {
+        "nombre": "David",
+        "telefono": "123456",
+        "correo": "david@hotmai.com"
+    },
+    {
+        "nombre": "Jose",
+        "telefono": "123456",
+        "correo": "jose@hotmai.com"
+    },
+    {
+        "nombre": "Maria",
+        "telefono": "123456",
+        "correo": "maria@hotmai.com"
+    }]
